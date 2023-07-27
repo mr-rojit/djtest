@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <h1>Hello, Brother.</h1>
+    <h2>You are doing good. Best Wishes</h2>
+    <p>Make sure your styles work</p>
+
+    <button onclick="clicked('red')">RED</button>
+    <button onclick="clicked('green')">green</button>
+    <button onclick="clicked('blue')">blue</button>
+
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
